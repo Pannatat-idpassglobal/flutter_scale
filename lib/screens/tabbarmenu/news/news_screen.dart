@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_scale/screens/tabbarmenu/news/news_items_horizontal.dart';
 import 'package:flutter_scale/themes/colors.dart';
 
 class NewsScreen extends StatefulWidget {
@@ -31,9 +32,7 @@ class _NewsScreenState extends State<NewsScreen> {
           ),
           SizedBox(
             height: 210,
-            child: Container(
-              color: primaryLight,
-            ),
+            child: newsItemHorizontalList()
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
